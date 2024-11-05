@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 .App-header {
@@ -11,4 +15,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.div_flex_row {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
 }

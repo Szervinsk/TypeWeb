@@ -1,0 +1,88 @@
+.KeyBoard {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 1em;
+
+    padding: 1.5em;
+
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #121212d4;
+    border-radius: 35px;
+    box-shadow: -10px 10px 1px #121212;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin: 0.75em 0;
+}
+
+.line_plus_enter {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons , .buttons_long , .buttons_medium_long , .button_enter, .button_space{
+    background-color: rgb(164, 164, 164);
+    margin-inline: 2px;
+    position: relative;
+    font-weight: 600;
+    width: 2em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0px 7.5px 0.5px rgb(25, 25, 25);
+}
+
+.buttons_long {
+    background-color: rgb(164, 164, 164);
+    width: 6em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.button_enter {
+    background-color: rgb(164, 164, 164);
+    width: 2em;
+    height: 8em;
+    padding: 1em;
+    border-radius: 15px;
+    margin: 5px 2px;
+    box-shadow: 0px 7.5px 0.5px rgb(25, 25, 25);
+}
+
+.buttons_medium_long {
+    background-color: rgb(164, 164, 164);
+    width: 6em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0px 7.5px 0.5px rgb(25, 25, 25);
+}
+
+.button_space {
+    background-color: #a4a4a4;
+    width: 33em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 15px; 
+    box-shadow: 0px 7.5px 0.5px rgb(25, 25, 25);
+}
+
+.active {
+    transition: all 0.3 ease;
+    top: 2px;
+    height: calc(2em -1px);
+    background-color: #828282;
+    box-shadow: 0px 5px 0.5px rgb(25, 25, 25);
+}
+
+.Controle {
+    text-align: left;
+    color: white;
+}
